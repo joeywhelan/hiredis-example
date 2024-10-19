@@ -19,10 +19,13 @@ This demonstrates use of the hiredis client lib.  It creates a connection to a R
 
 ## Setup <a name="setup"></a>
 ```bash
-git clone 
+git clone git@github.com:joeywhelan/hiredis-example.git && cd hiredis-example
 wget https://github.com/redis/hiredis/archive/refs/heads/master.zip
-
-
+cd hiredis-master
+make
+make install
+cd ..
+sudo ldconfig
 ```
 ## Usage <a name="usage"></a>
 - ./conntest <options>
