@@ -28,7 +28,9 @@ cd ..
 sudo ldconfig
 ```
 ## Usage <a name="usage"></a>
-- ./conntest <options>
-- -h host
-- -p port
-- -a password for default user
+```bash 
+./conntest <options>
+```
+- --h host
+- --p port
+- --a password for default user
